@@ -72,7 +72,7 @@ class AdressView extends StatelessWidget {
                   ],),
                 ),
                 Container(
-                  padding: EdgeInsets.only(left: 16,right: 18),
+                  padding: const EdgeInsets.only(left: 16,right: 18),
                   margin:const EdgeInsets.only(top: 10),
                   height: 80,
                   width: double.maxFinite,
@@ -92,7 +92,8 @@ class AdressView extends StatelessWidget {
             ),
           ),
         ],
-      )),
+      ),
+      ),
     );
   }
 }
